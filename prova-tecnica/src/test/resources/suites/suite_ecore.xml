@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite e-core">
+
+    <test name="SuccefulLogin">
+        <classes>
+            <class name="test.SuccessfulLoginTest" />
+        </classes>
+    </test>
+
+	<test name="UnsuccefulLogin">
+        <classes>
+            <class name="test.UnsuccessfulLoginTest" />
+        </classes>
+    </test>
+
+    <test name="checkInvoiceTest">
+        <classes>
+            <class name="test.CheckInvoiceTest" />
+        </classes>
+    </test>
+    
+
+</suite>
